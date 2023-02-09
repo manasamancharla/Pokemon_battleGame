@@ -1,0 +1,118 @@
+#pikachu {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 200px;
+    left: 250px;
+}
+
+#tentacruel {
+    position: relative;
+    left: 100px;
+}
+
+.p1 {
+    float: left;
+    width: 50%;
+}
+
+.p2 {
+    float: right;
+    width: 50%;
+}
+
+#name1 {
+    text-align: center;
+    position: relative;
+    left: 10px;
+}
+
+#name2 {
+    text-align: center;
+    position: relative;
+    left: 30px;
+}
+
+.gym,
+.playerControls {
+    float: right;
+    width: 100%;
+}
+
+.control1 {
+    float: left;
+    width: 50%;
+    text-align: center;
+
+}
+
+.control2 {
+    float: right;
+    width: 50%;
+    text-align: center;
+
+}
+
+h3 {
+    display: inline;
+    margin-top: 20px;
+}
+
+.attack1,
+.attack2 {
+    display: block;
+
+}
+
+button {
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+
+.result {
+    text-align: center;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.result h2 {
+    display: inline;
+}
+
+#reset {
+    margin-left: 10PX;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+#Q {
+    background-color: yellow;
+    color: black;
+
+}
+
+#A {
+    background-color: white;
+    color: black;
+
+}
+
+#P {
+    background-color: lawngreen;
+    color: black;
+
+}
+
+#L {
+    background-color: blue;
+    color: white;
+
+}

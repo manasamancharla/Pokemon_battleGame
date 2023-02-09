@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Game</title>
+    <link href="pokemongame.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<div class="gym">
+    <div class="p1">
+        <h1 id="name1">Pokemon 1</h1>
+        <img id="pikachu" src="/Gifs/pikachu.gif"></img>
+
+    </div>
+
+    <div class="p2">
+        <h1 id="name2">Pokemon 2</h1>
+        <img id="tentacruel" src="/Gifs/tentacruel.gif"></img>
+    </div>
+</div>
+
+<div class="playerControls">
+    <div class="control1">
+
+        <div class="attack1">
+            <h3>Q :</h3>
+            <button id="Q">ThunderBolt</button>
+        </div>
+
+        <div class="attack2">
+            <h3>A :</h3>
+            <button id="A">Quick Attack</button>
+        </div>
+        <h2 id="health1"></h2>
+    </div>
+
+
+    <div class="control2">
+
+        <div class="attack1">
+            <h3>P :</h3>
+            <button id="P"> Giga Drain</button>
+        </div>
+
+        <div class="attack2">
+            <h3>L :</h3>
+            <button id="L">HydroPump</button>
+        </div>
+        <h2 id="health2"></h2>
+    </div>
+</div>
+
+<div class="result">
+    <h2 id="result"></h2>
+    <button id="reset">Reset</button>
+
+</div>
+
+<audio id="victory" controls style="display: none;">
+    <source src="/Sounds/Victory.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="thunderbolt" controls style="display: none;">
+    <source src="/Sounds/Thunderbolt.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="quickAttack" controls style="display: none;">
+    <source src="/Sounds/Quick Attack.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="gigaDrain" controls style="display: none;">
+    <source src="/Sounds/Giga Drain.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="hydroPump" controls style="display: none;">
+    <source src="/Sounds/Hydro Pump.mp3" type="audio/mpeg">
+</audio>
+
+<script src="pokemongame.js"></script>
+</body>
+
+</html>
