@@ -1,5 +1,5 @@
 # Pokemon_battleGame
-This project is a Pokemon battle game using JavaScript. It defines two classes, "Pokemon" and "Game", which represent the properties and actions of a pokemon and the game state, respectively.
+This project is a Pokemon battle game made using JavaScript. It defines two classes, "Pokemon" and "Game", which represent the properties and actions of a pokemon and the game state, respectively.
 
 The Pokemon class holds information about a pokemon's name, health, and attack abilities, as well as methods for attacking another pokemon. The Game class manages the game state, including determining if the game is over and who the winner is.
 
